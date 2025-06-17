@@ -10,9 +10,12 @@ public class Media {
         System.out.println("digite o valor de y: ");
         int y = sc.nextInt();
         
+        System.out.println("digite o valor de Z: ");
+        int z= sc.nextInt();
+        
         sc.close();
         
-        double media = (x + y ) /2.0;
+        double media = (x + y + z ) /3.0;
 
         System.out.printf(" A media de X e Y eh : %.2f\n", media);
     }
